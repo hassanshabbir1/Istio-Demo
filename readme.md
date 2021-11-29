@@ -1,4 +1,4 @@
-## Python apps for Istio Routing and deployments demo
+## Python app for Istio Routing and deployments demo
 
 
 <h5>
