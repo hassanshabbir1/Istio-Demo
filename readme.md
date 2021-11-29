@@ -17,11 +17,16 @@ displays home and scheduled pages. All contents except Provider name and rating/
 <li> Then write : python front_end_app.py (The app will start running on port 3000) </li>
 
 
+<br><br><br>
+
+
+
 <ul>Provider service </ul>
 
 <li> Switch to the provider_service branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/provider_service  </li>
 <li> Then write : python app.py (The app will start running on port 6000) </li>
 
+<br><br><br>
 
 <ul>Rating service V1 </ul>
 
@@ -29,6 +34,7 @@ displays home and scheduled pages. All contents except Provider name and rating/
 <li> Then write : python app.py (The app will start running on port 6001) </li>
 
 
+<br><br><br>
 
 <ul>Rating service V2 </ul>
 
@@ -37,12 +43,14 @@ displays home and scheduled pages. All contents except Provider name and rating/
 
 
 
+<br><br><br>
 
 <ul>Rating service V3 </ul>
 
 <li> Switch to the rating_v1 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v3  </li>
 <li> Then write : python app.py (The app will start running on port 6003) </li>
 
+<br><br><br>
 
 <h5> Now redirect to http://127.0.0.1:3000/ in browser </h5>
 
