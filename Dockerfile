@@ -11,4 +11,4 @@ RUN pip install requests
 
 COPY ./ ./
 
-CMD ["python", "./front_end.py"]
+CMD ["python", "./rating_v1.py"]
