@@ -11,48 +11,55 @@ displays home and scheduled pages. All contents except Provider name and rating/
 
 <ul>Front end service </ul>
 
-<li> Clone this repository. </li>
-<li> Switch to the folder  </li>
-<li> Write : pip install -r requirements.txt  </li>
-<li> Then write : python front_end_app.py (The app will start running on port 3000) </li>
 
-
+<li> docker pull hpcllc/front-end:latest  </li>
+<li> docker run hpcllc/front-end:latest </li>
+<li> (The app will start running on localhost port 3000) </li>
+ 
 <br><br><br>
 
 
 
 <ul>Provider service </ul>
 
-<li> Switch to the provider_service branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/provider_service  </li>
-<li> Then write : python app.py (The app will start running on port 6000) </li>
-
+<li> docker pull hpcllc/provider-service:latest  </li>
+<li> docker run hpcllc/provider-service:latest </li>
+<li> (The app will start running on localhost port 6000) </li>
+ 
 <br><br><br>
+
+
 
 <ul>Rating service V1 </ul>
 
-<li> Switch to the rating_v1 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v1  </li>
-<li> Then write : python app.py (The app will start running on port 6001) </li>
-
-
+<li> docker pull hpcllc/rating-v1:latest  </li>
+<li> docker run hpcllc/rating-v1:latest </li>
+<li> (The app will start running on localhost port 6001) </li>
+ 
 <br><br><br>
 
 <ul>Rating service V2 </ul>
 
-<li> Switch to the rating_v2 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v2  </li>
-<li> Then write : python app.py (The app will start running on port 6002) </li>
-
+<li> docker pull hpcllc/rating-v2:latest  </li>
+<li> docker run hpcllc/rating-v2:latest </li>
+<li> (The app will start running on localhost port 6002) </li>
+ 
 
 
 <br><br><br>
 
 <ul>Rating service V3 </ul>
 
-<li> Switch to the rating_v3 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v3  </li>
-<li> Then write : python app.py (The app will start running on port 6003) </li>
 
+
+<li> docker pull hpcllc/rating-v3:latest  </li>
+<li> docker run hpcllc/rating-v3:latest </li>
+<li> (The app will start running on localhost port 6003) </li>
+ 
+ 
 <br><br><br>
 
-<h5> Now redirect to http://127.0.0.1:3000/ in browser </h5>
+<h5> Now redirect to http://0.0.0.0:3000/ in browser </h5>
 
 
 
