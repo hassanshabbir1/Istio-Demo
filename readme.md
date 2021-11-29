@@ -38,7 +38,7 @@ displays home and scheduled pages. All contents except Provider name and rating/
 
 <ul>Rating service V2 </ul>
 
-<li> Switch to the rating_v1 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v2  </li>
+<li> Switch to the rating_v2 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v2  </li>
 <li> Then write : python app.py (The app will start running on port 6002) </li>
 
 
@@ -47,7 +47,7 @@ displays home and scheduled pages. All contents except Provider name and rating/
 
 <ul>Rating service V3 </ul>
 
-<li> Switch to the rating_v1 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v3  </li>
+<li> Switch to the rating_v3 branch or write :  git clone https://github.com/hassanshabbir1/Istio-Demo/tree/rating_v3  </li>
 <li> Then write : python app.py (The app will start running on port 6003) </li>
 
 <br><br><br>
